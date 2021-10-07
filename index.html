@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <!--  -->
+  <!-- Styles -->
+  <link rel="stylesheet" href="/styles/styles.css">
+  <!--  -->
+  <title>Weather App</title>
+</head>
+<body>
+  <div class="container">
+    <!-- Search Panel -->
+    <div class="search-panel">
+      <input type="text" id="search" placeholder="Search...">
+      <button class="btn-search">
+        <i class="fas fa-search-location fa-2x"></i>
+      </button>
+    </div>
+    <!-- Weather Content -->
+    <div class="weather-content">
+      <h1 id="city-title">Sydney<span id="country">AU</span></h1>
+      <h2 id="temperature">27℃</h2>
+      <!-- <h3 id="clouds">Broken Clouds</h3> -->
+      <canvas id="icon1" width="128" height="128"></canvas>
+      <h3 id="description">Rain</h3>
+      <h4 id="humidity">Humidity: 66%</h4>
+      <h5 id="wind">Wind: 3.6km/h</h5>
+    </div>
+  </div>
+
+
+  <script src="app.js"></script>
+</body>
+</html>
